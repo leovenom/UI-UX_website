@@ -4,7 +4,7 @@ import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
 
-const Colaboration = () => {
+const Collaboration = () => {
   return (
     <Section crosses>
       <div className="container lg:flex">
@@ -31,7 +31,7 @@ const Colaboration = () => {
           <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto ">
             {collabText}
           </p>
-          <div className="relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100">
+          <div className="relative mt-16 left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100">
             <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">
               <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
                 <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
@@ -77,4 +77,4 @@ const Colaboration = () => {
   );
 };
 
-export default Colaboration;
+export default Collaboration;
