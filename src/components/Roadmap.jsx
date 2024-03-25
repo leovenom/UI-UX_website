@@ -38,7 +38,9 @@ const Roadmap = () => (
 
                     <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
                       <img
-                        className="mr-2.5"
+                        className={`mr-2.5 ${
+                          status === "In progress" ? "animate-spin" : ""
+                        }`}
                         src={item.status === "done" ? check2 : loading1}
                         width={16}
                         height={16}
@@ -48,7 +50,7 @@ const Roadmap = () => (
                     </div>
                   </div>
 
-                  <div className="mb-10 -my-10 -mx-15">
+                  <div className="mb-10 -my-10 -mx-15 ">
                     <img
                       className="w-full"
                       src={item.imageUrl}
